@@ -1,0 +1,14 @@
+﻿<Window x:Class="AutomSys.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutomSys"
+        mc:Ignorable="d"
+        Title="Полная инструкция" Height="450" Width="800" Background="#FFF1BFBF">
+    <Grid>
+        <Label Content=" Первым делом, необходимо Заполнить автоматы товарами, далее, &#xD; запустить симуляцию, в случае возникновения ЧС, то есть поломки автомата и др,&#xD; необходимо вызвать бригаду рабочих для устранения проблем с автоматами,&#xD; либо же, если только 1 автомат вышел из строя(края выделены красным цветом),&#xD; нажать на сломанны автомат и он починится.&#xD; Так же в ходе лаб. работы были разработаны кнопки &quot;Спустя 3 дня&quot;,&#xD; которая переводит текущее время на 3 дня вперед и выгрузке всех товаров&#xD; из автомата, останавливая симуляцию,что дает тем самым просрочиться продуктам&#xD; в автомате и кнопка &quot;Замена товаров на свежие&quot;, которая пополняет автомат&#xD; свежими продуктами. В случае нажатия на кнопку &quot;Замена товаров на свежие&quot;,&#xD; вам необходимо закрыть форму 2 и запустить симуляцию,&#xD; далее следить за ЧС и в случае чего вызывать бригаду." HorizontalAlignment="Center" VerticalAlignment="Top" Width="800" Height="331" FontSize="20" Margin="0,10,0,0"/>
+        <Button x:Name="Close" Content="Закрыть" HorizontalAlignment="Left" Margin="601,358,0,0" VerticalAlignment="Top" Width="178" Height="50" Click="Close_Click"/>
+
+    </Grid>
+</Window>
